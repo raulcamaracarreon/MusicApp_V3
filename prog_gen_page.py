@@ -10,7 +10,8 @@ def show_prog_gen_page():
 
         1. Selecciona una tonalidad.
         2. Elige cuántos acordes deseas en tu progresión.
-        3. Presiona 'Enter'
+        3. Selecciona la complejidad de la progresión
+        4. Presiona 'Enter'
 
         ¿Por qué siempre suena bien? Eso es un secreto que guardamos bajo siete llaves... 🎵
     ''')
