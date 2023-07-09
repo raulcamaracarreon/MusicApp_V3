@@ -571,7 +571,7 @@ def show_prog_gen_page():
 
     Este tipo de movimiento es frecuente en las progresiones populares más comunes. Por ejemplo, en la secuencia:
     
-    ## C-Am-Dm-G 
+        #### C-Am-Dm-G 
     
     Cada cambio de acorde implica un movimiento fuerte.
 
