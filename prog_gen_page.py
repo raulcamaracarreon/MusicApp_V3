@@ -597,7 +597,7 @@ def show_prog_gen_page():
     | ------------------ | ----------------- | -------------------- | ----------------- | --------------------- | ---------------- |
 
 
-    Las opciones son acumulativas, por ejemplo: "Sustitutos" tritonales" contiene los acordes de sustitución tritonal, de intercambio modal, sustitutos naturales y acordes naturales; la opción "Intercambio modal" contiene, además de los acordes de intercambio modal, todas las opciones de la opción anterior: Sustitutos naturales y los acordes naturales, etc., pero no contiene los sustitutos tritonales. 
+    Las opciones se acumulan de forma progresiva. Por ejemplo, la opción "Sustitutos tritonales" incluye los acordes de sustitución tritonal, los de intercambio modal, los sustitutos naturales y los acordes naturales. Por otro lado, la opción "Intercambio modal" incluye los acordes de intercambio modal, así como todas las opciones de la opción anterior, que son los sustitutos naturales y los acordes naturales. Sin embargo, la opción "Intercambio modal" no incluye los sustitutos tritonales. 
 
     
     4. Presiona 'Enter' y visualiza la progresión generada.
