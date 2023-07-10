@@ -767,7 +767,7 @@ def show_prog_gen_page():
 
     Este tipo de movimiento es frecuente en las progresiones famosas. Por ejemplo, en la secuencia C-Am-Dm-G, cada cambio de acorde implica un movimiento fuerte.
 
-    ## Compliquemos las cosas
+    ## Sustitutos de dominante
 
     La generación de progresiones, además de los movimientos fuertes como principal recurso para el movimiento de los acordes generados aleatoriamente, se puede personalizar agregando:
 
@@ -777,7 +777,7 @@ def show_prog_gen_page():
 
     * los acordes sustitutos del quinto grado dominante que comparten el tritono que contiene el quinto grado natural (5b7 de V).
 
-    ## Compliquemos las cosas aún más
+    ## Dominantes secundarios y cadenas II-V-I
 
     Si el nivel de complejidad aún no es suficiente, podemos además:
 
