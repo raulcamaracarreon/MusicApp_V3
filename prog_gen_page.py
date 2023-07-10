@@ -767,7 +767,7 @@ def show_prog_gen_page():
 
     Este tipo de movimiento es frecuente en las progresiones famosas. Por ejemplo, en la secuencia C-Am-Dm-G, cada cambio de acorde implica un movimiento fuerte.
 
-    ## Sustitutos de dominante
+    ## Sustitutos de tónica y dominante
 
     La generación de progresiones, además de los movimientos fuertes como principal recurso para el movimiento de los acordes generados aleatoriamente, se puede personalizar agregando:
 
