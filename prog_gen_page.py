@@ -751,7 +751,7 @@ def show_prog_gen_page():
 
     La aplicación se basa en principios de composición musical, en particular, en los movimientos armónicos de los acordes. Seleccionas una tonalidad y el número de acordes que deseas en tu progresión, y la aplicación genera una progresión de acordes. 
 
-    Para entender el funcionamiento de esta aplicación es necesario entender básicamente el concepto de:
+    Para entender el funcionamiento de esta aplicación es necesario revisar los siguientes conceptos:
 
     ## Los movimientos armónicos
 
