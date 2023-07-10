@@ -747,7 +747,7 @@ def show_prog_gen_page():
     readme_text = """
     # Generador de Progresiones de Acordes
 
-    El Generador de Acordes Mágico es una aplicación diseñada para crear progresiones armónicas efectivas y atractivas de una manera simple y divertida.
+    Esta aplicación fue diseñada para crear progresiones armónicas efectivas y atractivas de una manera simple y divertida.
 
     ## ¿Cómo funciona?
 
