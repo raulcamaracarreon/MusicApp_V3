@@ -745,8 +745,6 @@ def show_prog_gen_page():
     # Boton de Información
 
     readme_text = """
-    # Generador de Progresiones de Acordes
-
     Esta aplicación fue diseñada para crear progresiones armónicas efectivas y atractivas de una manera simple y divertida.
 
     ## ¿Cómo funciona?
