@@ -757,15 +757,15 @@ def show_prog_gen_page():
 
     Los movimientos armónicos son de tres clases:
 
-    1. Movimiento débil: en el cambio de un acorde tríada a otro, una o dos notas cambian, pero no se mantiene la tónica del primer acorde.
+    1. Movimiento fuerte: en el cambio de un acorde tríada a otro, una o dos notas cambian, pero se mantiene la tónica del primer acorde.
 
     2. Movimiento medio: todas las notas cambian.
 
-    3. Movimiento fuerte: una o dos notas cambian, pero se mantiene la tónica del primer acorde.
+    3. Movimiento débil: una o dos notas cambian, pero no se mantiene la tónica del primer acorde.
 
     La aplicación utiliza principalmente los movimientos fuertes para generar las progresiones de acordes en la modalidad más simple de generación de progresiones con los acordes naturales. 
 
-    Este tipo de movimiento es frecuente en las progresiones famosas. Por ejemplo, en la secuencia C-Am-Dm-G, cada cambio de acorde implica un movimiento fuerte.
+    Este tipo de movimiento es frecuente en la muchas progresiones populares. Por ejemplo, en la secuencia C-Am-Dm-G, cada cambio de acorde implica un movimiento fuerte.
 
     ## Sustitutos de tónica y dominante
 
@@ -775,7 +775,7 @@ def show_prog_gen_page():
 
     * los acordes de intercambio modal pertenecientes al modo menor cuya función armónica es de subdominante menor y que se "toman prestados" para su uso en la tonalidad mayor como sustituto del quinto grado dominante.
 
-    * los acordes sustitutos del quinto grado dominante que comparten el tritono que contiene el quinto grado natural (5b7 de V).
+    * los acordes sustitutos del quinto grado dominante que comparten el tritono que contiene el quinto grado natural (5b7/V).
 
     ## Dominantes secundarios y cadenas II-V-I
 
