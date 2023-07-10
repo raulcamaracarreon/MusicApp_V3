@@ -662,16 +662,16 @@ def show_prog_gen_page():
     tonalidades = tonalidades_naturales
 
     # Pide al usuario que elija una tonalidad y un número de acordes.
-    tonalidad = st.selectbox('Elige una tonalidad', list(tonalidades.keys()))
-    num_acordes = st.slider('Elige el número de compases', 1, 64, 8)
+    tonalidad = st.sidebar.selectbox('Elige una tonalidad', list(tonalidades.keys()))
+    num_acordes = st.sidebar.slider('Elige el número de compases', 1, 64, 8)
 
     # Permitir al usuario seleccionar un estilo de progresión de acordes.
 
     estilos = ['Acordes naturales', 'Sustitutos naturales', 'Intercambio modal', 'Sustitutos tritonales']
 
-    estilo = st.select_slider('Selecciona la complejidad de la progresión', options=estilos)
+    estilo = st.sidebar.select_slider('Selecciona la complejidad de la progresión', options=estilos)
 
-    st.write(f"Complejizar añadiendo: {estilo}")
+    st.sidebar.write(f"Complejizar añadiendo: {estilo}")
 
     # Define 'tonalidades' en base a la elección del usuario.
     if estilo == 'Acordes naturales':
@@ -726,7 +726,7 @@ def show_prog_gen_page():
     progresion_str = '||: ' + ' | '.join(progresion) + ' :||'
     st.markdown(f'## **{progresion_str}**')
 
-    if st.checkbox('Agregar dominantes secundarios'):
+    if st.sidebar.checkbox('Agregar dominantes secundarios'):
         progresion_con_dominantes = agregar_dominantes(progresion, quinto_grado)  # pasamos progresion como una lista
         # Muestra la progresión generada.
         st.write("Progresión generada enriquecida con dominantes secundarios:")
@@ -734,7 +734,7 @@ def show_prog_gen_page():
         st.markdown(f'## **{progresion_con_dominantes_str}**')
 
 
-    if st.checkbox('Agregar secuencias II-V-I'):
+    if st.sidebar.checkbox('Agregar secuencias II-V-I'):
         progresion_con_II_V7 = agregar_II_V7(progresion, II_V7)
         # Muestra la progresión generada.
         st.write("Progresión generada enriquecida con secuencias II-V7-I:")
