@@ -815,7 +815,7 @@ def show_prog_gen_page():
     """
 
     # Muestra el checkbox "Encuentra las 7 llaves"
-    if st.checkbox('🔑🔑🔑🔑🔑🔑🔑'):
+    if st.checkbox('Acerca de este generador de progresiones'):
         st.markdown(readme_text, unsafe_allow_html=False)
 
     #Evitar generaciones de progresiones no solicitadas:
