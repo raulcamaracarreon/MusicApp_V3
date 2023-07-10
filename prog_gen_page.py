@@ -6,19 +6,20 @@ import numpy as np
 def show_prog_gen_page():
 
     st.title('Generador de Progresiones de Acordes para Armonía Funcional')
-    st.markdown('''
-        ¡Bienvenido!
-        
-        Este generador crea progresiones armónicas efectivas y atractivas con solo unos pocos clics. 
-
-        1. Selecciona una tonalidad.
-        2. Elige cuántos acordes deseas en tu progresión.
-        3. Selecciona la complejidad de la progresión
-        4. Agrega u oculta las progresiones con dominantes secundarios y con cadenas II-V-I que se generan a partir de tu progresión.
-        5. Presiona 'Enter'
-
-        ¿Por qué siempre suena bien? Eso es un secreto que guardamos bajo siete llaves 🔑🔑🔑🔑🔑🔑🔑... 
-    ''')
+    readme_text_0 = """
+    ¡Bienvenido al generador de acordes. Este generador crea progresiones armónicas efectivas y atractivas con solo unos pocos clics. 
+    
+    1. Selecciona una tonalidad.
+    2. Elige cuántos acordes deseas en tu progresión.
+    3. Selecciona la complejidad de la progresión
+    4. Agrega u oculta las progresiones con dominantes secundarios y con cadenas II-V-I que se generan a partir de tu progresión.
+    5. Presiona 'Enter'
+    
+    """
+    
+    # Muestra el checkbox "Encuentra las 7 llaves"
+    if st.checkbox('Instrucciones'):
+        st.markdown(readme_text_0, unsafe_allow_html=False)
 
 
     # Define un diccionario con los acordes y los movimientos fuertes asociados.
