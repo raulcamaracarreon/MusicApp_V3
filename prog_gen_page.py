@@ -13,7 +13,6 @@ def show_prog_gen_page():
     2. Elige cuántos acordes deseas en tu progresión.
     3. Selecciona la complejidad de la progresión
     4. Agrega u oculta las progresiones con dominantes secundarios y con cadenas II-V-I que se generan a partir de tu progresión.
-    5. Presiona 'Enter'
     
     """
     
@@ -802,8 +801,6 @@ def show_prog_gen_page():
 
     4. Para agregar dominantes secundarios a tu progresión, simplemente marca la casilla "Agregar dominantes secundarios". La aplicación automáticamente añadirá acordes de dominante secundarios donde sea aplicable en tu progresión generada.
     5. Para agregar secuencias II-V-I que anteceden a cada acorde de tu progresión, simplemente marca la casilla "Agregar secuencias II-V7-I". La aplicación automáticamente añadirá estas secuencias donde sea aplicable en tu progresión generada.
-
-    6. Presiona 'Enter' y visualiza la progresión generada.
 
     Las opciones son acumulativas, por ejemplo: "Sustitutos" tritonales" contiene los acordes de intercambio modal, sustitutos naturales y acordes naturales; la opción "Intercambio modal" contiene, además de los acordes de intercambio modal, todas las opciones de la opción anterior: Sustitutos naturales y los acordes naturales. De igual forma, la progresión generada con secuencias II-V7-I contiene los acordes dominantes de la progresión generada con acordes dominantes secundarios, y esta progresión contiene las anteriores, consecutivamente.
 
